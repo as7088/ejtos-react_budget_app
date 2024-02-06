@@ -6,6 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Budget from './components/Budget';
 
 // Add code to import the other components here under
+import { AppProvider } from './context/AppContext';
+import ExpenseTotal from './components/ExpenseTotal';
+import ExpenseList from './components/ExpenseList';
+import AddExpenseForm from './components/AddExpenseForm';
+import RemainingBudget from './components/Remaining';
 
 
 import { AppProvider } from './context/AppContext';
