@@ -24,22 +24,39 @@ const App = () => {
 
                         {
                             /* Add Remaining component here*/
+				<div className='col-sm'>
+						<RemainingBudget />
+					</div>
                         }        
 
                         {
                             /* Add ExpenseTotal component here */
+				<div className='col-sm'>
+						<ExpenseTotal />
+					</div>
                         }        
-                       
+                       <h3 className='mt-3'>Expenses</h3>
                         {
                             /* Add ExpenseList component here */
+				<div className='row '>
+					<div className='col-sm'>
+						<ExpenseList />
+					</div>
+				</div>
                         }         
 
                         {
+				<h3 className='mt-3'>Add Expense</h3>
                             /* Add ExpenseItem component here */
                         }        
 
                         {
                             /* Add AllocationForm component here under */
+				<div className='row mt-3'>
+					<div className='col-sm'>
+						<AddExpenseForm />
+					</div>
+				</div>
                         }        
 
                 </div>
